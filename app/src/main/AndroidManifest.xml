@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ml.kathan1509.kite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/klogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherEnterAttendance"></activity>
+        <activity android:name=".StudentResult" />
+        <activity android:name=".TeacherProfile" />
+        <activity android:name=".TeacherDashboard" />
+        <activity android:name=".TeacherLogin" />
+        <activity android:name=".Setting" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".StudentNotice" />
+        <activity android:name=".StudentAttendance" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".StudentSignup2" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".StudentSignup" />
+        <activity android:name=".TeacherLoginSignup" />
+        <activity android:name=".StudentLoginSignup" />
+        <activity android:name=".UserType" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481661828673",
+    "firebase_url": "https://kite-27f2c.firebaseio.com",
+    "project_id": "kite-27f2c",
+    "storage_bucket": "kite-27f2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481661828673:android:2d4f33f4740c550c3a50c0",
+        "android_client_info": {
+          "package_name": "ml.kathan1509.kite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481661828673-ssmslmq2c5m3vuj88v18bfhal73cspgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ml.kathan1509.kite",
+            "certificate_hash": "ebd6238c28817d422f6125b106e9a0de40b3fc40"
+          }
+        },
+        {
+          "client_id": "481661828673-32irm2qcmvgeraifho9nc5osmr1rtqrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-RUz6jHII0-mq7hd9o6WOpYoRuBIbTho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481661828673-32irm2qcmvgeraifho9nc5osmr1rtqrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

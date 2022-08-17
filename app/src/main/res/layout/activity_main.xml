@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true"
+                android:text="Dashboard"
+                android:textColor="#B0DA241B"
+                android:textSize="35sp"
+                android:fontFamily="@font/playfair_display_bold"
+                android:gravity="top"/>
+        </com.google.android.material.appbar.MaterialToolbar>
+    </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:padding="14dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:rowCount="3">
+
+            <Button
+                android:id="@+id/btnStudentProfile"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="0sp"
+                android:padding="5dp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Student Profile"
+                android:textColor="#B0DA241B"/>
+
+            <Button
+                android:id="@+id/btnStudentAtendance"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoe_ui"
+                android:lineSpacingExtra="0sp"
+                android:textColor="#B0DA241B"
+                android:text="Student Attendance"/>
+
+            <Button
+                android:id="@+id/btnStudentNotice"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:fontFamily="@font/segoe_ui"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="0sp"
+                android:textColor="#B0DA241B"
+                android:text="Notice"/>
+
+            <Button
+                android:id="@+id/btnResults"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="0sp"
+                android:fontFamily="@font/segoe_ui"
+                android:textColor="#B0DA241B"
+                android:text="Result"/>
+
+            <Button
+                android:id="@+id/btnManageApplication"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:padding="5dp"
+                android:textColor="#B0DA241B"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="0sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Manage Application"/>
+
+            <Button
+                android:id="@+id/btnStudyMaterial"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_margin="16dp"
+                android:elevation="8dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="0sp"
+                android:fontFamily="@font/segoe_ui"
+                android:padding="5dp"
+                android:textColor="#B0DA241B"
+                android:text="Study Material"/>
+        </GridLayout>
+    </LinearLayout>

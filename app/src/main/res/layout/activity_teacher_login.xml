@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="35sp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:textStyle="bold"
+            android:textColor="#B0DA241B"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="31dp"
+            android:gravity="top" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stu_signup"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="300dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stu_signup"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="300dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="30sp"
+            android:fontFamily="@font/segoe_ui"
+            android:textColor="#000000"
+            android:lineHeight="40sp"
+            android:layout_marginTop="270dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30sp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp">
+
+            <EditText
+                android:id="@+id/edttechloginemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:hint="Email"
+                android:singleLine="true"
+                android:fontFamily="@font/segoe_ui"
+                android:textColor="@android:color/black"
+                android:backgroundTint="#80000000"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edttechloginpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:hint="Password"
+                android:singleLine="true"
+                android:fontFamily="@font/segoe_ui"
+                android:textColor="@android:color/black"
+                android:backgroundTint="#80000000"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLoginTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#99DA241B"
+            android:fontFamily="@font/segoe_ui"
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/rounded_button" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_marginEnd="90dp"
+            android:text="Already have Account ?"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:letterSpacing="-0.02"/>
+
+        <TextView
+            android:id="@+id/txtSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:layout_marginStart="130dp"
+            android:text="Sign Up"
+            android:textSize="16sp"
+            android:textColor="#BFDA241B"
+            android:letterSpacing="-0.02"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
